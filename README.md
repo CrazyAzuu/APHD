@@ -62,3 +62,20 @@ hammer-cloned-v0
 <img src="./figures/hammer-cloned-v0.png">
 hammer-human-v0
 <img src="./figures/hammer-human-v0.png">
+
+### Relocate
+relocate-expert-v0
+<img src="./figures/relocate-expert-v0.png"> 
+relocate-cloned-v0
+<img src="./figures/relocate-cloned-v0.png">
+relocate-human-v0
+<img src="./figures/relocate-human-v0.png">
+
+
+### Maze2d
+maze2d-umaze-v0
+<img src="./figures/maze2d-umaze-v0.png"> 
+maze2d-medium-v0
+<img src="./figures/maze2d-medium-v0.png">
+maze2d-large-v0
+<img src="./figures/maze2d-large-v0.png">

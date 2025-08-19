@@ -3,7 +3,7 @@
 ## Motivation
 
 ## Architecture
-<img src="./figures/APHD.pdf" width="400">
+<img src="./figures/APHD.jpg" width="400">
 
 
 ## Autoregressive Model

@@ -3,7 +3,8 @@
 ## Motivation
 
 ## Architecture
-![模型结构](./figures/APHD.pdf)
+<img src="./figures/APHD.pdf" width="400">
+
 
 ## Autoregressive Model
 

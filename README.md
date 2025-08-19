@@ -12,7 +12,7 @@ The architecture of MTPN. After embedding, the trajectory is processed in parall
 <div align="center">
   <img src="./figures/APHD.png">
 </div>
-Overview of the proposed APHD method. Given an input trajectory sequence, the MTPN first autoregressively generates a feasible trajectory. This trajectory is then refined by a hierarchical diffusion model that constructs multi-horizon temporal abstractions. The final action sequence is derived by the inverse dynamics and executed via the adaptive replanning trigger. "Skip" denotes equidistant sampling of states, and H-1 represents autoregressive planning steps.
+Overview of the proposed APHD method. Given an input trajectory sequence, the MTPN first autoregressively generates a feasible trajectory. This trajectory is then refined by a hierarchical diffusion model that constructs multi-horizon temporal abstractions. The final action sequence is derived by the inverse dynamics and executed via the adaptive replanning trigger. "Skip" denotes equidistant sampling of states, and "H-1" represents autoregressive planning steps.
 
 ## Visualization Results
 ### Hopper-medium-expert-v2

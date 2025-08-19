@@ -51,13 +51,13 @@ Overview of the proposed APHD method. Given an input trajectory sequence, the MT
 ### Door-human-v0
 <img src="./figures/door-human-v0.png">
 
-### Pen-expert-v0
+### Pen-expert-v1
 <img src="./figures/pen-expert-v1.png"> 
 
-### Pen-cloned-v0
+### Pen-cloned-v1
 <img src="./figures/pen-cloned-v1.png">
 
-### Pen-human-v0
+### Pen-human-v1
 <img src="./figures/pen-human-v1.png">
 
 ### Hammer-expert-v0

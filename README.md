@@ -12,70 +12,77 @@ The architecture of MTPN. After embedding, the trajectory is processed in parall
 <div align="center">
   <img src="./figures/APHD.png">
 </div>
-Overview of the proposed APHD method. Given an input trajectory sequence, the MTPN first autoregressively generates a feasible trajectory. This trajectory is then refined by a hierarchical diffusion model that constructs multi-horizon temporal abstractions. The final action sequence is derived by the inverse dynamics and executed via the adaptive replanning trigger. "Skip" denotes equidistant sampling of states, and $H-1$ represents autoregressive planning steps.
+Overview of the proposed APHD method. Given an input trajectory sequence, the MTPN first autoregressively generates a feasible trajectory. This trajectory is then refined by a hierarchical diffusion model that constructs multi-horizon temporal abstractions. The final action sequence is derived by the inverse dynamics and executed via the adaptive replanning trigger. "Skip" denotes equidistant sampling of states, and H-1 represents autoregressive planning steps.
 
 ## Visualization Results
-### Hopper
-hopper-medium-expert-v2
+### Hopper-medium-expert-v2
 <img src="./figures/hopper-medium-expert-v2.png"> 
-hopper-medium-replay-v2
+
+### Hopper-medium-replay-v2
 <img src="./figures/hopper-medium-replay-v2.png">
-hopper-medium-v2
+
+### Hopper-medium-v2
 <img src="./figures/hopper-medium-v2.png">
 
-### Walker2d
-walker2d-medium-expert-v2
+### Walker2d-medium-expert-v2
 <img src="./figures/walker2d-medium-expert-v2.png"> 
-walker2d-medium-replay-v2
+
+### Walker2d-medium-replay-v2
 <img src="./figures/walker2d-medium-replay-v2.png">
-walker2d-medium-v2
+
+### Walker2d-medium-v2
 <img src="./figures/walker2d-medium-v2.png">
 
-### Halfcheetah
-halfcheetah-medium-expert-v2
+### Halfcheetah-medium-expert-v2
 <img src="./figures/halfcheetah-medium-expert-v2.png"> 
-halfcheetah-medium-replay-v2
+
+### Halfcheetah-medium-replay-v2
 <img src="./figures/halfcheetah-medium-replay-v2.png">
-halfcheetah-medium-v2
+
+### Halfcheetah-medium-v2
 <img src="./figures/halfcheetah-medium-v2.png">
 
-### Door
-door-expert-v0
+### Door-expert-v0
 <img src="./figures/door-expert-v0.png"> 
-door-cloned-v0
+
+### Door-cloned-v0
 <img src="./figures/door-cloned-v0.png">
-door-human-v0
+
+### Door-human-v0
 <img src="./figures/door-human-v0.png">
 
-### Pen
-pen-expert-v0
+### Pen-expert-v0
 <img src="./figures/pen-expert-v1.png"> 
-pen-cloned-v0
+
+### Pen-cloned-v0
 <img src="./figures/pen-cloned-v1.png">
-pen-human-v0
+
+### Pen-human-v0
 <img src="./figures/pen-human-v1.png">
 
-### Hammer
-hammer-expert-v0
+### Hammer-expert-v0
 <img src="./figures/hammer-expert-v0.png"> 
-hammer-cloned-v0
+
+### Hammer-cloned-v0
 <img src="./figures/hammer-cloned-v0.png">
-hammer-human-v0
+
+### Hammer-human-v0
 <img src="./figures/hammer-human-v0.png">
 
-### Relocate
-relocate-expert-v0
+### Relocate-expert-v0
 <img src="./figures/relocate-expert-v0.png"> 
-relocate-cloned-v0
+
+### Relocate-cloned-v0
 <img src="./figures/relocate-cloned-v0.png">
-relocate-human-v0
+
+### Relocate-human-v0
 <img src="./figures/relocate-human-v0.png">
 
+### Maze2d-umaze-v1
+<img src="./figures/maze2d-umaze-v1.png"> 
 
-### Maze2d
-maze2d-umaze-v0
-<img src="./figures/maze2d-umaze-v0.png"> 
-maze2d-medium-v0
-<img src="./figures/maze2d-medium-v0.png">
-maze2d-large-v0
-<img src="./figures/maze2d-large-v0.png">
+### Maze2d-medium-v1
+<img src="./figures/maze2d-medium-v1.png">
+
+### Maze2d-large-v1
+<img src="./figures/maze2d-large-v1.png">

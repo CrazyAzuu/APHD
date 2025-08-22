@@ -1,6 +1,15 @@
 # Adaptive Planning Hierarchical Diffuser for Multi-Step Action Execution in Offline RL
 
 ## Motivation
+<div align="center">
+  <img src="./figures/idea1.jpg" width="600">
+</div>
+Illustrative example of the action execution strategy. While prior methods adopt single-step execution strategy to avoid performance degradation in multi-step rollout, our approach maintains comparable performance across both two settings, enabling the trajectory to be leveraged for generating an executable action sequence in a single-shot planning process.
+
+<div align="center">
+  <img src="./figures/idea2.jpg" width="600">
+</div>
+Illustrative example of feature modeling. Emphasizes global dependencies while neglecting local state transition dynamics, leading to poor adaptability to environmental changes.
 
 ## Autoregressive Model
 <div align="center">
